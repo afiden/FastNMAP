@@ -1,0 +1,3 @@
+O FastNMAP Scan é projetado para realizar uma varredura eficiente em redes mais lentas, buscando identificar todas as portas abertas no menor tempo possível, 
+aproveitando as otimizações fornecidas pelo NMAP. Primeiro, ele realiza uma varredura rápida para detectar todas as portas abertas no intervalo de 1 a 65535. 
+Em seguida, realiza uma verificação mais aprofundada e detalhada nas portas identificadas, utilizando comandos mais complexos do NMAP. 
