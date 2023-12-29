@@ -1,7 +1,7 @@
 import subprocess
 
 def nmap_scan(ip):
-    initial_scan_cmd = f'nmap {ip} -p- --open'
+    initial_scan_cmd = f'nmap {ip} -p- --open -T5 -Pn'
     initial_scan_result = subprocess.run(initial_scan_cmd, shell=True, text=True, capture_output=True)
     open_ports = [line.split('/')[0] for line in initial_scan_result.stdout.splitlines() if 'open' in line]
   
