@@ -12,7 +12,7 @@ def nmap_scan(ip):
 
     return "Nenhuma porta aberta identificada."
 
-# Acrescente o endereço IP que deseja escanear
+# Acrescente o endereço IP que deseja escanear 
 ip_alvo = '[Endereço IP que você quer Scanear]'
 resultado_scan = nmap_scan(ip_alvo)
 print(resultado_scan)
